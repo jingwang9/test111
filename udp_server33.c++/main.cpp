@@ -177,7 +177,7 @@ int global::recv(void)
 
 int main(int argc, char**argv)
 {
-	unsigned short port;
+	unsigned short port = 10000;
 
 	if(argc > 1)
 		sscanf(argv[1], "%hu", &port);
